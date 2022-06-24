@@ -1,0 +1,96 @@
+body {
+    font-family: monospace;
+    background-color: #0052d6c1;
+    font-size: 14px;
+}
+#wrapper {
+    background-color: white;
+}
+header{
+    padding-left: 10px;
+}
+header > a {
+    text-decoration: none;
+    color: black;
+}
+header > a:hover {
+    text-decoration-line: underline;
+}
+header, nav, main, aside, footer {
+    border: 1px solid black;
+}
+#content {
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    border-top: none;
+    min-width: 120px;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    border-top: none;
+    border-left: none;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+}
+main > * {
+    display: block;
+    margin: 0 auto;
+}
+main > p {
+    margin-bottom: 10px;
+}
+main > h1, h2 {
+    margin: 10px 10px;
+}
+.blog, .research {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.blog, .research, iframe {
+    width: 600px;
+}
+iframe {
+    height: 600px;
+}
+table {
+    text-align: left;
+    border-collapse: collapse;
+}
+th {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+}
+#contact form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+#contact form > * {
+    display: block;
+    margin: 5px;
+}
+#send-contanct {
+    width: 50px;
+}
+@media screen and (max-width: 800px) {
+    #content {
+        flex-direction: column;
+    }
+    nav, main, img, .blog, .research, iframe {
+        width: 100%;
+    }
+    #contact form {
+        width: 300px;
+    }
+}
