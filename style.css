@@ -1,11 +1,10 @@
 body {
     font-family: monospace;
-    background: rgb(0,82,214);
-    background: linear-gradient(120deg, rgba(0,82,214,0.5) 0%, rgba(255,255,255,0) 75%, rgba(0,82,214,0.49709390592174374) 100%);
-    
+    background-color: #0052d6c1;
     font-size: 14px;
 }
 #wrapper {
+    background-color: white;
 }
 header{
     padding-left: 10px;
