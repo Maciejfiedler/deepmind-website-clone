@@ -9,6 +9,9 @@ body {
 header{
     padding-left: 10px;
 }
+header > p {
+    font-size: 12px;
+}
 header > a {
     text-decoration: none;
     color: black;
@@ -75,11 +78,13 @@ main > h1, h2 {
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
-.blog, .research, iframe {
+.blog, .research {
     width: 600px;
 }
 iframe {
-    height: 600px;
+    height: 520px;
+    width: 600px;
+    border: none;
 }
 table {
     text-align: left;
